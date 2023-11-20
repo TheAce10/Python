@@ -6,3 +6,4 @@ def test_store_single_response():
     language_survey = AnonymousSurvey(question)
     language_survey.store_response('English')
     assert 'English' in language_survey.responses
+
