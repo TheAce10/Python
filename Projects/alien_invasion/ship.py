@@ -24,8 +24,6 @@ class Ship:
         self.moving_right = False
         self.moving_left = False
     
-
-
     def blitme(self):
         """Draw the ship at its current location."""
         self.screen.blit(self.image, self.rect)
