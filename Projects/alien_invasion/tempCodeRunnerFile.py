@@ -1,2 +1,3 @@
-self.screen = pygame.display.set_mode(
-        #     (self.settings.screen_width, self.settings.screen_height))
+    # Finished a row; reset x value, and increment y value.
+            current_x = alien_width
+            current_y += 2 * alien_height
