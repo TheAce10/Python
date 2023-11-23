@@ -118,7 +118,7 @@ class AlienInvasion:
             new_alien.x = current_x
             new_alien.rect.x = current_x
             self.aliens.add(new_alien)
-            current_x += 2 * i 8
+            current_x += 2 * alien_width
 
         # self.aliens.add(alien)
 
