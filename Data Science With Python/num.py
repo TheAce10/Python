@@ -14,6 +14,10 @@ print(np_2d[0,0])
 h = np.random.normal(1, 0.2, 20)
 cs = np.column_stack((np_height, np_weight))
 
+np.mean(np_height)
+np.median(np_height)
+np.std(np_height)
+
 # np.column_stack((h,h))
 
 print(np.corrcoef(cs))
